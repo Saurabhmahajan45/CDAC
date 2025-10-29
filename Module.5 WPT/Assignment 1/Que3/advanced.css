@@ -1,0 +1,72 @@
+#frame{
+    width:50%;
+    margin: 100px auto;
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#title{
+    background-color: #7B1FA2 ;
+    padding : 10px;
+    color : white;
+}
+
+#title h3{
+    color: white;
+}
+
+h3{
+    color: #7B1FA2;
+    border-bottom: #7B1FA2 solid 1px;
+}
+
+#right{
+    width: 30%;
+    height: auto;
+     margin: 10px 0px 10px 5px;
+    display: inline-block;
+    background-color: #ECEFF1;
+    padding: 10px;
+
+}
+
+.left{
+    float: left;
+    width: 65%;
+    margin: 5px;
+    
+}
+
+table{
+    border: 10px;
+    border-spacing: 5px;
+    
+    padding: 5px;
+    text-align: start;
+}
+td, th{
+   
+    padding: 5px;
+    text-align: start;
+}
+
+.checked{
+    color: goldenrod
+
+}
+
+#right li{
+    list-style: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,118 @@
+Part A
+----------
+What will the following commands do?
+------------------------------------
+
+1. echo "Hello, World!"  
+Ans:- For printing the Hello,World to the terminal.
+
+2. name="Productive"  
+Ans:- Assigning the value to the variable. 
+
+3. touch file.txt  
+Ans:- Creating a text file. 
+
+4. ls -a  
+Ans:- Listing all the files and directories and also shows the hidden files.
+
+5. rm file.txt  
+Ans:- It is used to remove files.
+
+6. cp file1.txt file2.txt  
+Ans:- It is used to copy the data from one to another file. 
+
+7. mv file.txt /path/to/directory/  
+Ans:- moves file.txt into the specific directory
+
+8. chmod 755 script.sh  
+Ans:- Use to set the read,write and execute permission to owner and read permission to group 
+and other. 
+
+9. grep "pattern" file.txt  
+Ans:- It is used to search “pattern” in the file.txt .
+
+10. kill PID 
+Ans:- This is used to kill the process using process ID/
+
+11. mkdir mydir && cd mydir && touch file.txt && echo "Hello, World!" > file.txt && cat file.txt  
+Ans:- This line is used to make directory ,go inside it and then create a file and in that file write 
+“Hello,World!” and display the file. 
+
+12. ls -l | grep ".txt"  
+Ans:- It is used to list all the details and then filter only .txt files.
+
+13. cat file1.txt file2.txt | sort | uniq  
+Ans:- It used to combine two text files and sort the lines and then remove the duplicates.
+
+14. ls -l | grep "^d"  
+Ans:- It shows only directories.
+
+15. grep -r "pattern" /path/to/directory/  
+Ans :- It is Used to search “pattern” inside all the files .
+
+16. cat file1.txt file2.txt | sort | uniq –d 
+Ans:- It shows only lines that are duplicate in both files.
+
+17. chmod 644 file.txt 
+Ans :- Use to set the read,write permission to owner and read only permission to group and 
+other
+
+18. cp -r source_directory destination_directory 
+Ans:- Copy a directory and everything inside it.
+
+19. find /path/to/search -name "*.txt" 
+Ans:- It search for all.txt files under a directory. 
+
+20. chmod u+x file.txt 
+Ans:- Use to execute permission only for owner.
+
+21. echo $PATH
+Ans:- Shows System path.
+
+Part B
+----------
+Identify True or False:
+------------------------
+1. ls is used to list files and directories in a directory. 
+Ans:- True 
+
+2. mv is used to move files and directories. 
+Ans:- True 
+
+3. cd is used to copy files and directories. 
+Ans:- False(cp is used for copy and cd is used for change directory) 
+
+4. pwd stands for "print working directory" and displays the current directory. 
+Ans:- True 
+
+5. grep is used to search for patterns in files. 
+Ans:- True 
+
+6. chmod 755 file.txt gives read, write, and execute permissions to the owner, and read and 
+execute permissions to group and others. 
+Ans:- True 
+
+7. mkdir -p directory1/directory2 creates nested directories, creating directory2 inside 
+directory1 if directory1 does not exist. 
+Ans:- True 
+
+8. rm -rf file.txt deletes a file forcefully without confirmation. 
+Ans:- True
+
+
+Identify the Incorrect Commands: 
+---------------------------------
+1. chmodx is used to change file permissions. 
+Ans:- chmod 
+
+2. cpy is used to copy files and directories. 
+Ans:- cp 
+
+3. mkfile is used to create a new file. 
+Ans:- touch 
+
+4. catx is used to concatenate files. 
+Ans:- cat 
+
+5. rn is used to rename files. 
+Ans:- mv

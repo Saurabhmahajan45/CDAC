@@ -1,0 +1,6 @@
+ System.out.println("1");
+      File var1 = new File("abc.txt");
+      System.out.println("2");
+      new FileReader(var1);
+      System.out.println("3");
+      System.out.println("4");
